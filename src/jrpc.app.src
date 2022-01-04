@@ -1,0 +1,11 @@
+{application,
+ jrpc,
+ [{description, "JRPC is JSON-RPC Erlang/OTP library with collecting handlers for Cowboy"},
+  {vsn, git},
+  {registered, []},
+  {mod, {jrpc_app, []}},
+  {applications, [kernel, stdlib, jsx, cowboy]},
+  {env, []},
+  {modules, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}]}.

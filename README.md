@@ -1,2 +1,14 @@
-# jrpc
-JRPC is JSON-RPC Erlang/OTP library with collecting handlers for Cowboy
+jrpc
+=====
+
+An OTP application
+
+Build
+-----
+
+    $ rebar3 compile
+
+```
+jrpc:call(#{<<"module">> => <<"io">>, <<"method">> => <<"format">>,
+            <<"params">> => [<<"\"~p~n\"">>, <<"[\"Hello World\"]">>]}).
+```
